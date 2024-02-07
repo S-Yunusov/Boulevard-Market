@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 500;
+  background: #e5e5e5;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  background: #282828;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container-nav {
+  max-width: 362px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-icon {
+  width: 62px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.active {
+  padding: 0 30px;
+}
+
+.search {
+  padding-right: 25px;
+}
+
+.airpods {
+  width: 100%;
+  height: 700px;
+  background: url(../images/Header-bg.jpg);
+  background-size: 100% 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: "Prosto one";
+  font-weight: 400;
+  font-size: 100px;
+  color: #fff;
+  margin: 0 auto 38px;
+}
+
+.header-btn {
+  width: 200px;
+  height: 50px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+}
+
+h4 {
+  font-size: 20px;
+  color: #171718;
+  margin: 13px 11px 13px 14px;
+}
+
+.header-btn img {
+  width: 16px;
+  height: 15px;
+  margin: 17px 14px 18px 0;
+}
+
+.goods {
+  width: 100%;
+  background-color: #151515;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.static {
+  margin: 30px auto 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.static p {
+  max-width: 538px;
+  width: 100%;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 38px 30px 0 0;
+}
+
+.static img {
+  max-width: 552px;
+  width: 100%;
+}
+
+.black-airpods {
+  display: flex;
+  margin: 0 auto 50px;
+  flex-wrap: wrap;
+}
+
+.black-airpods img {
+  max-width: 457px;
+  margin-right: 87px;
+  width: 100%;
+}
+
+.black-airpods p {
+  max-width: 540px;
+  width: 100%;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.white-airpods {
+  display: flex;
+  margin: 0 auto 79px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.white-airpods p {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.text1 {
+  max-width: 333px;
+  width: 100%;
+  text-align: right;
+}
+
+.text2 {
+  max-width: 333px;
+  width: 100%;
+  text-align: left;
+}
+
+.line1 {
+  width: 61px;
+  height: 1px;
+  margin: auto 14px auto 13px;
+}
+
+.line2 {
+  width: 61px;
+  height: 1px;
+  margin: auto 11px auto 14px;
+}
+
+.phones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.iphone_11_pro,
+.iphone_11,
+.iphone_SE,
+.iphone_XR {
+  width: 255px;
+  height: 312px;
+  background: #fff;
+  border-radius: 6px;
+  margin-right: 30px;
+  text-align: center;
+  color: #000;
+}
+
+.phones h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+.phones img {
+  margin: 10px 0;
+}
+
+.phones p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+
+.phones a {
+  background: #000;
+  width: 161px;
+  height: 34px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 7px 0;
+}
+
+.footer {
+  background: #282828;
+  width: 100%;
+  height: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  padding-right: 29px;
+}
